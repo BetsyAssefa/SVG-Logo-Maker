@@ -30,6 +30,8 @@ Install the dependencies: This project requires Node.js and npm (Node Package Ma
 
 To generate a logo, run the application from the command line: node index.js
 You will be prompted to enter the following information:
+
+
 Text: A short text for the logo (up to three characters).
 Text Color: The color for the text, which can be a color keyword (e.g., red, blue) or a hexadecimal color code (e.g., #FFFFFF).
 Shape: Choose a shape for the logo (Circle, Triangle, or Square).
@@ -58,6 +60,8 @@ If you'd like to contribute to this project, please fork the repository and use 
 ## Testing
 
 This project includes unit tests using Jest to verify that each shape renders correctly with the specified color. To run the tests, use the following command: npm test
+
+
 The tests ensure that each shape (Circle, Triangle, and Square) generates the correct SVG code based on the specified color.
 
 ## License
