@@ -6,7 +6,7 @@ The **SVG Logo Maker** is a command-line application that generates simple SVG l
 
 This project was built using **Node.js**, **Inquirer** for user input, and **Jest** for testing. It’s structured with an object-oriented approach, utilizing classes to define different shapes (Circle, Triangle, Square) with customizable colors.
 
-## Table of Contents
+Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,7 +16,7 @@ This project was built using **Node.js**, **Inquirer** for user input, and **Jes
 - [Example Output](#example-output)
 - [License](#license)
 
-## Installation
+Installation
 
 To set up this project on your local machine, follow these steps:
 
@@ -26,7 +26,8 @@ To set up this project on your local machine, follow these steps:
    cd SVG-Logo-Maker
 Install the dependencies: This project requires Node.js and npm (Node Package Manager). Install the necessary packages by running: npm install
 
-##Usage
+Usage
+
 To generate a logo, run the application from the command line: node index.js
 You will be prompted to enter the following information:
 Text: A short text for the logo (up to three characters).
@@ -35,14 +36,17 @@ Shape: Choose a shape for the logo (Circle, Triangle, or Square).
 Shape Color: The color of the shape, specified as a color keyword or hexadecimal code.
 Once you provide the inputs, an SVG file named logo.svg will be generated in the project directory. You can open this file in a browser to view the logo.
 
-##Features
+Features
+
+
 Customizable Text: Add up to three characters for the logo text.
 Flexible Colors: Specify colors using keywords or hex codes for both the text and shape.
 Shape Selection: Choose from three different shapes (Circle, Triangle, or Square) to personalize your logo.
 Object-Oriented Design: Uses classes and inheritance for shape creation, making it easy to add more shapes in the future.
 Automated Testing: Includes Jest tests to ensure each shape renders correctly.
 
-##How to Contribute
+How to Contribute
+
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are welcome.
 
 1.Fork the repository.
@@ -51,12 +55,15 @@ If you'd like to contribute to this project, please fork the repository and use 
 4.Push to the branch (`git push origin feature/NewFeature`).
 5.Create a new Pull Request.
 
-##Testing
+Testing
+
 This project includes unit tests using Jest to verify that each shape renders correctly with the specified color. To run the tests, use the following command: npm test
 The tests ensure that each shape (Circle, Triangle, and Square) generates the correct SVG code based on the specified color.
 
-##License
+License
+
 This project is licensed under the MIT License.
 
-##Credits
+Credits
+
 This project was developed by Bitsiet Assefa. 
