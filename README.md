@@ -1,5 +1,9 @@
 SVG Logo Maker
 
+## Walkthrough Video
+
+[Watch the Walkthrough Video](https://drive.google.com/file/d/1qus1QEOYv_HJCIyZd8vH7I3FgjG3-vwx/view?usp=sharing)
+
 ## Description
 
 The **SVG Logo Maker** is a command-line application that generates simple SVG logos based on user input. It allows users to create custom logos by choosing a shape, colors, and adding a short text, making it ideal for developers who want a quick and easy logo for their projects without needing to hire a graphic designer.
